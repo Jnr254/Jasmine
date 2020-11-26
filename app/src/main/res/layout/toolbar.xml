@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_toolbar"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:elevation="4dp"
+        app:navigationIcon="@drawable/ic_baseline_menu_24"
+        android:logo="@drawable/plantlogo"
+        android:theme="?attr/actionBarTheme"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:title="Plant Monitor"
+        android:id="@+id/toolbar_title"
+        android:layout_toLeftOf="@+id/plant_logo"/>
+
+</LinearLayout>
